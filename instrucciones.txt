@@ -132,7 +132,12 @@ origin   OK
 Cambiamos nombre rama master a main: (por defecto GIT llama  master a la rama ppal cuando creamos repositorio)
 git branch -M main
 
+LA 1RA VEZ HAGO:
 git push -u origin main  (-u = set--upstream  -->  sube la rama local a repositorio)
+
+LUEGO EN LO  SUCESIVO SIMPLEMENTE:
+git push
+
 
 PARA REVISAR SI HAY CAMBIOS EN EL REPOSITORIO REMOTO:
 git fetch origin
