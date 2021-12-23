@@ -136,3 +136,8 @@ git push -u origin main  (-u = set--upstream  -->  sube la rama local a reposito
 
 PARA REVISAR SI HAY CAMBIOS EN EL REPOSITORIO REMOTO:
 git fetch origin
+
+PARA TRAER CAMBIOS DESDE EL REMOTO AL LOCAL: 
+git pull origin main
+(p ej trae  readme.txt  si lo creamos en  github)
+
