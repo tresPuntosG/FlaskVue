@@ -146,3 +146,16 @@ PARA TRAER CAMBIOS DESDE EL REMOTO AL LOCAL:
 git pull origin main
 (p ej trae  readme.txt  si lo creamos en  github)
 
+
+PARA CREAR RAMAS (p ej  develop):
+git branch develop
+
+HAY QUE CAMBIARSE A ESA NUEVA RAMA:
+git switch develop
+
+O HACER 2 PASOS EN UNO  CREAR Y CAMBIAR A ESA NUEVA RAMA:
+git checkout -b develop
+
+EL BRANCH NUEVO SE CREA CON EL CONTENIDO QUE TIENE DONDE ESTOY POSICIONADO AL CREARLO 
+SI ESTOY EN UNA CARPETA VACIA, LO CREA VACIO...
+
